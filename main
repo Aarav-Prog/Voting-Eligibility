@@ -1,0 +1,14 @@
+void main(){
+  votingRequirements();
+}
+
+votingRequirements(){
+int age = 12;
+  print( 'Your age is $age years');
+    if (age > 18){
+      print('You are eligible to vote');
+    }
+    else {
+      print('Sorry you are not eligible to vote');
+    }
+}
